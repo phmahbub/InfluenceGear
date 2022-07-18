@@ -1,10 +1,48 @@
+/* ------common instruction -------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'EB Garamond', serif;
     font-family: 'Gentium Book Plus', serif;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto Serif', serif;
+    /* font-family: 'Roboto Serif', serif; */
+    background-color: #fafafa;
+    font-weight: 400;
     }
+
+        /* ------ Header Section ------- */
+
+    .menue{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 87px;
+    }
+    .menue-list{
+        display: flex;
+    }
+    .menue-list li{
+        list-style: none;
+        margin: 0 15px;
+    }
+    .menue-list li a{
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #3A3A3A;
+    }
+    .menue-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #3A3A3A;
+    }
+ /* ------ Body Section ------- */
+ 
