@@ -9,6 +9,7 @@
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto Serif', serif; */
     font-weight: 400;
+    /* color: #3A3A3A; */
     }
 
         /* ------ Header Section ------- */
@@ -20,7 +21,7 @@
         padding-left: 120px;
         padding-right: 120px;
         padding-top: 87px;
-        padding-bottom: 20px;
+        padding-bottom: 50px;
     }
     .menue-list{
         display: flex;
@@ -216,3 +217,29 @@
     font-weight: 700;
     font-size: 18px;
     text-decoration: none;
+ }
+/* ------ Footer Section ------ */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a0b0c;
+    color:white;
+    height: 28vh;
+    }
+.footer .title{
+    font-weight: 700;
+    font-size: 24px;
+}
+.footer .copyright{
+    font-weight: 700;
+    font-size: 14px;
+}
+.social-links{
+    padding-top: 20px;
+}
+.social-links a{
+    margin:10px;
+    color: tomato;
+}
