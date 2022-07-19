@@ -85,12 +85,14 @@
     text-decoration: none;
  }
  .camera-image{
+    
     display: flex;
     justify-content: right;
     width: 50%;
     padding-right: 100px;
  }
 .camera-image img{
+    
     width: 440px;
     height: 414px;
 }
@@ -112,7 +114,9 @@
 
 .products{
   
-    margin: 120px;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
@@ -124,8 +128,8 @@
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-    padding-bottom: 40px;
 }
+    
 .product-description{
     display: flex;
     flex-direction: column;
