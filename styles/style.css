@@ -21,6 +21,7 @@
         padding-left: 120px;
         padding-right: 120px;
         padding-top: 87px;
+        padding-bottom: 20px;
     }
     .menue-list{
         display: flex;
@@ -99,10 +100,67 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-top: 100px;
+    margin: 100px;
     border-top: 0.5px solid rgb(238, 238, 238);
     border-bottom: 0.5px solid rgb(238, 238, 238);
 }
 .logo img{
     margin: 20px;
+}
+
+/* ------ Product(Product-section)------- */
+
+.products{
+  
+    margin: 120px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 150px
+    border-radius: 12px;
+}
+.Product-Title h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.product-description{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 6px rgb(247, 227, 227);
+    
+}
+.product-description img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.product-description h2{
+   font-size: 28px;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+.product-description h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.fa-star, .fa-star-half-stroke{
+    font-size: 15px;
+    color: rgba(223, 190, 4, 0.904);
+    margin-bottom: 10px;
+}
+.product-description span{
+   color: black;
+   padding-left: 10px;
+   margin-bottom: 10px;
+}
+.product-description h5{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
 }
