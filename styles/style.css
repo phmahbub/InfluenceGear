@@ -8,7 +8,6 @@
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto Serif', serif; */
-    background-color: #fafafa;
     font-weight: 400;
     }
 
@@ -85,17 +84,17 @@
     text-decoration: none;
  }
  .camera-image{
-    
+    position: relative;
     display: flex;
     justify-content: right;
     width: 50%;
     padding-right: 100px;
- }
-.camera-image img{
     
-    width: 440px;
-    height: 414px;
-}
+ }
+ .image-top{
+     position: absolute;
+ }
+ 
 /* ------ Middle Section (Logo-section)------- */
 
 .logo{
