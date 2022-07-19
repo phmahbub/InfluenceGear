@@ -128,7 +128,6 @@
     font-size: 32px;
     font-weight: 700;
 }
-    
 .product-description{
     display: flex;
     flex-direction: column;
@@ -167,3 +166,53 @@
     font-weight: 700;
     line-height: 30px;
 }
+.button2{
+    
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-top: 26px;
+    padding-right: 160px;
+ }
+ .button-text2{
+    color: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+   
+}
+/* ------ Feature-Product(Lower-section)------- */
+
+.featured-products{
+    display: flex;
+    align-items: center;
+    padding: 100px 150px;
+
+}
+.product-desc{
+    margin-left: 80px;
+}
+.product-desc h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.product-desc p{
+    font-size: 16px;
+    font-weight: 700;
+}
+.button3{
+    width: 160px;
+    height: 44px;
+    background: #E02C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+ }
+ .button-text3{
+    background: #E02C6D;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
